@@ -6,7 +6,7 @@ public class Triangulo extends PoligonoRegular{
 		super(numLados, tamLado);
 	}
 	public float calcularArea() {
-		
+		return 0;
 	}
 	
 

@@ -45,15 +45,15 @@ public class Veiculo {
         this.qtdeCombustivel = comb;
     }
 
-    public String getCor(String cor){
+    public String getCor(){
         return cor;
     }
     
-    public String getPlaca(String placa){
+    public String getPlaca(){
         return placa;
     }
     
-    public String getModelo(String modelo){
+    public String getModelo(){
         return modelo;
     }
     

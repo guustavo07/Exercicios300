@@ -1,6 +1,6 @@
 package Questao6;
 
-public class PoligonoRegular {
+public abstract class PoligonoRegular {
 	public int numLados;
 	public float tamLado;
 	public PoligonoRegular(int numLados, float tamLado) {
@@ -21,10 +21,7 @@ public class PoligonoRegular {
 		this.tamLado = tamLado;
 	}
 	public int calcularPerimetro() {
-		
+		return 1;
 	}
-	public abstract float calcularArea() {
-		
-	}
-
+	public abstract float calcularArea();
 }
